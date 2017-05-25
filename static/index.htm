@@ -1,0 +1,28 @@
+<html lang="en" ng-app="MainApp">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+<h1>
+    Create a ROOT
+</h1>
+<span ng-controller="MainCtrl">
+    <div>
+        <label>identifier</label> <input id="identifier" type="number">
+
+        <div id="paxes"></div>
+    </div>
+    <div>
+        <button ng-click="addPax()">+ PAX</button>
+    </div>
+
+    <button ng-click="createXML()">create</button>
+
+    <hr>
+
+    <textarea cols="90" rows="80" id="result">{{result}}</textarea>
+</span>
+</body>
+</html>

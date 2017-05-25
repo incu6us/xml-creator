@@ -1,0 +1,6 @@
+package: xml-creator
+import:
+- package: github.com/gorilla/mux
+  version: v1.4.0
+- package: github.com/gorilla/handlers
+  version: v1.2.1
