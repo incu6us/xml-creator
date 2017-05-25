@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	"xml-creator/internal/api"
+	"github.com/incu6us/xml-creator/internal/api"
 )
 
 func main() {
